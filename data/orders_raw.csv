@@ -1,0 +1,16 @@
+order_id,customer_name,email,product,category,quantity,price,order_date,country
+1001,Иван Петров,ivan@mail.ru,Ноутбук Dell,Electronics,1,85000,2024-01-15,Russia
+1002,ANNA SMIRNOVA,anna@gmail.com,Беспроводные наушники,electronics,2,7800,15.01.2024,russia
+1003,Дмитрий Ли,,Механическая клавиатура,Electronics,1,4500,2024-01-16,Russia
+1004,Ольга Козлова,olga@yandex.ru,Игровая мышь,Electronics,-1,2300,2024-01-16,Russia
+1005,Иван Петров,ivan@mail.ru,Ноутбук Dell,Electronics,1,85000,2024-01-15,Russia
+1006,Marco Rossi,marco@email.it,Monitor LG 27,Electronics,1,32000,2024-01-17,Italy
+1007,Сергей Новиков,sergey@corp.ru,Офисное кресло,Furniture,2,15000,2024-01-17,Russia
+1008,Elif Yilmaz,elif@hotmail.com,USB-C Hub,Electronics,3,3200,17-01-2024,Turkey
+1009,Чэнь Вэй,chen@qq.com,Веб-камера Full HD,  Electronics  ,1,5600,2024-01-18,China
+1010,Ольга Козлова,olga@yandex.ru,Настольная лампа,Furniture,0,1800,2024-01-18,Russia
+1011,Tobias Müller,tobias@web.de,Bluetooth Speaker,Electronics,2,9900,2024-01-18,Germany
+1012,Сергей Новиков,sergey@corp.ru,Коврик для мыши,Accessories,5,800,2024-01-19,Russia
+1013,María García,maria@correo.es,Smartwatch,Electronics,1,28000,2024-01-19,Spain
+1014,Иван Иванов,ivan2@mail.ru,Планшет Samsung,Electronics,abc,19000,2024-01-20,Russia
+1015,Elif Yilmaz,elif@hotmail.com,USB-C Hub,Electronics,3,3200,17-01-2024,Turkey
