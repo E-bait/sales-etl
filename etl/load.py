@@ -42,10 +42,6 @@ ON CONFLICT (order_id) DO UPDATE SET
 
 
 def load(df: pd.DataFrame, conn_params: dict) -> int:
-    """
-    Создаёт таблицу (если не существует) и загружает данные через upsert.
-    Возвращает количество загруженных строк.
-    """
     logger.info("[LOAD] Подключаемся к PostgreSQL...")
 
     conn = psycopg2.connect(**conn_params)
@@ -55,7 +51,7 @@ def load(df: pd.DataFrame, conn_params: dict) -> int:
         with conn.cursor() as cur:
             
             cur.execute(CREATE_TABLE_SQL)
-            logger.info("[LOAD] ✓ Таблица orders готова")
+            logger.info("[LOAD] Таблица orders готова")
 
             columns = [
                 "order_id", "customer_name", "email", "product", "category",
