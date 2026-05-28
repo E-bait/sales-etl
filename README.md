@@ -6,4 +6,5 @@
 - etl/ — скрипты обработки
 - queries.sql — запросы для дашборда
 
-<img width="2700" height="3598" alt="dashboard" src="https://github.com/user-attachments/assets/88521f85-6e78-4ada-b583-efd442c5a640" />
+<img width="2700" height="3598" alt="localhost_5050_dashboard_practice-dashboard (1)" src="https://github.com/user-attachments/assets/6f8c0e5d-4130-4840-9e18-3e6f46df4e5b" />
+
