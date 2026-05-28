@@ -26,9 +26,8 @@ ORDER BY revenue DESC;
 -- Нарастающая выручка по дням
 SELECT
     TO_CHAR(order_date, 'DD Mon') AS day,
-    SUM(total_price)              AS daily_revenue,
-    SUM(SUM(total_price)) OVER (ORDER BY order_date
-        ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) AS running_total
+    SUM(total_price) AS daily_revenue,
+    SUM(SUM(total_price)) OVER (ORDER BY order_date) AS running_total
 FROM orders
 GROUP BY order_date
 ORDER BY order_date;
